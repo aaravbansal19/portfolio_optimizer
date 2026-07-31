@@ -2,14 +2,14 @@ Portfolio Optimizer
 
 Overview: A python based portfolio optimization tool which uses Modern Portfolio Theory and Monte Carlo Simulations to analyze stocks, compare portfolio strategies, and determine the optimal portfolio allocations. 
 
-The program downlaods historical market data using Yahoo Finance, calculates potfolio performance metrics, analyzes risk, meausres stock correlations, and generates optimized portfolios based on:
+The program downloads historical market data using Yahoo Finance, calculates portfolio performance metrics, analyzes risk, measures stock correlations, and generates optimized portfolios based on:
 - Highest Sharpe Ratio
 - Lowest Volatility
 - Highest Expected Return
 
 Features
   Stock Data Analysis:
-  - Downlaods historical stock prices using yfinance
+  - Downloads historical stock prices using yfinance
   - Supports multiple stocks
   - Allows different time periods : 6 months, 1 year, 2 years, 5 years
 
@@ -27,7 +27,7 @@ Features
   - Portfolio growth over time
   - Normalized stock performance
   Stocks are normalized to the same starting value to compare performance regardless of the share price.
-  Example : A $300 stock and a $30 stock can both be compared bny starting them at the same normalized value.
+  Example : A $300 stock and a $30 stock can both be compared by starting them at the same normalized value.
 
   Correlation Analysis: 
   The program creates a correlation matrix showing how stocks move relative to each other. It identifies the most correlated and least correlated stock pair. This helps meausre diversification. If        stocks have a high correlation, they move similarly. If stocks have a low or negative correlation, the portfolio has more diversification. 
@@ -36,15 +36,15 @@ Features
   The program uses a Monte Carlo Simulation method to generate thousands of possible portfolio and allocations. For each simulation, the program randomly creates portfolio weights and calculates the      expected annual return, annual volatility, and sharpe ratio. The portfolio with the best metric is selected. 
 
   Modern Portfolio Theory (MPT): 
-  This project is based on Modern Portfolio Theory, which focuses on maxiing return while also controlling risk. Instead of choosing stocks individually, MPT analyzes how stocks work together as a        portfolio. The main idea is that a portfolio is not about the performance of individual stocks, but also about how these stocks correlate and move together. 
+  This project is based on Modern Portfolio Theory, which focuses on maximizing return while also controlling risk. Instead of choosing stocks individually, MPT analyzes how stocks work together as a        portfolio. The main idea is that a portfolio is not about the performance of individual stocks, but also about how these stocks correlate and move together. 
 
 Optimization Methods 
   1. Highest Sharpe Ratio Portfolio
-  The Sharpe Ratio measures return compared to risk. Formula: Return/Volatility. A higher Sharpe Ratio means the portfolio makes more trun for each unit of risk. The program finds the portoflio with      the best risk and return performance. The program returns the expected return, volatility, sharpe ratio, and the weights/allocations for each stock in this portfolio simulation.
+  The Sharpe Ratio measures return compared to risk. Formula: Return/Volatility. A higher Sharpe Ratio means the portfolio makes more return for each unit of risk. The program finds the portfolio with      the best risk and return performance. The program returns the expected return, volatility, sharpe ratio, and the weights/allocations for each stock in this portfolio simulation.
   2. Lowest Volatility Portfolio
-  This portfolio has the lowest risk. It finds the combination of stocks with the smallest volatility. This is desinged for people who prioritize portfolio stability. The program returns the expected     return, volatility, sharpe ratio, and the weights/allocations for each stock in this portfolio simulation.
+  This portfolio has the lowest risk. It finds the combination of stocks with the smallest volatility. This is designed for people who prioritize portfolio stability. The program returns the expected     return, volatility, sharpe ratio, and the weights/allocations for each stock in this portfolio simulation.
   3. Highest Return Portfolio
-  This portfolio maximizes the expected return. It accepts more risk compared to the Highest Sharpe Ratio portoflio. The program returns the expected return, volatility, sharpe ratio, and the             weights/allocations for each stock in this portfolio simulation.
+  This portfolio maximizes the expected return. It accepts more risk compared to the Highest Sharpe Ratio portfolio. The program returns the expected return, volatility, sharpe ratio, and the             weights/allocations for each stock in this portfolio simulation.
 
 Final Portfolio Summary
   This program prints out a final total portfolio summary in the end. Below is an example of a portfolio summary
@@ -68,7 +68,7 @@ This program creates multiple graphs.
 Stock Price Comparison: Shows the historical price movement of each stock
 ![Stock Price Comparison](portfolio_prices.png)
 
-Normalized Stock Peformance: Compares stock prices at a normalized price. 
+Normalized Stock Performance: Compares stock prices at a normalized price. 
 ![Normalized Prices](normalized_prices.png)
 
 Correlation Heatmap: Shows relationship between stocks
@@ -91,10 +91,10 @@ portfolio_summary.csv:
 
 Technologies Used:
 Python
-- Numpy
+- NumPy
 - Pandas
 - Matplotlib
-- yFinance
+- yfinance
 Concepts
 - Modern Portfolio Theory
 - Monte Carlo Simulation
