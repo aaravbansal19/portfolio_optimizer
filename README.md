@@ -66,17 +66,22 @@ Visualizations Generated
 This program creates multiple graphs. 
 
 Stock Price Comparison: Shows the historical price movement of each stock
+![Stock Price Comparison](portfolio_prices.png)
 
 Normalized Stock Peformance: Compares stock prices at a normalized price. 
+![Normalized Prices](normalized_prices.png)
 
 Correlation Heatmap: Shows relationship between stocks
+![Correlation Heatmap](correlation_heatmap.png)
 
 Equal Weight Portfolio Growth: Shows how the equal weight portfolio value changes over time. 
+![Portfolio Growth](portfolio_growth.png)
 
 Efficient Frontier: Displays simulated portfolios based on return, risk, and sharpe ratio. 
+![Efficient Frontier](efficient_frontier.png)
 
 Optimized vs. Equal Weight Comparison: Compares the highest sharpe ratio portfolio against the equal weight portfolio. 
-
+![Optimized vs Equal Weight](optimized_vs_equal_wieght.png)
 
 Files Generated 
 After running the program: optimized_portfolio.csv and portfolio_summary.csv are created. 
@@ -97,5 +102,13 @@ Concepts
 - Correlation Analysis
 - Statistical Modeling
 
-
+Installation
+1. Clone the repository
+```bash
+git clone git@github.com:aaravbansal19/portfolio_optimizer.git
+cd portfolio_optimizer
+2. Install libraries
+python3 -m pip install -r requirements.txt
+3. Run program
+python3 main.py
 
