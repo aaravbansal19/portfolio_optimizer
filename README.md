@@ -49,17 +49,17 @@ Optimization Methods
 Final Portfolio Summary
   This program prints out a final total portfolio summary in the end. Below is an example of a portfolio summary
   Example Portfolio Summary: 
-    Stocks: 10
-    Trading Days: 124
-    Simulations: 100000
-    Equal Weight Return: 9.66%
-    Highest Sharpe Return: 18.99%
-    Lowest Risk Return: 12.70%
-    Highest Return Portfolio: 21.63%
-    Best Stock: AAPL
-    Worst Stock: MSFT
-    Highest Sharpe Ratio: 3.93
-    Most Correlated Pair: GOOGL & AMZN
+    Stocks: 10, 
+    Trading Days: 124, 
+    Simulations: 100000, 
+    Equal Weight Return: 9.66%, 
+    Highest Sharpe Return: 18.99%, 
+    Lowest Risk Return: 12.70%, 
+    Highest Return Portfolio: 21.63%, 
+    Best Stock: AAPL, 
+    Worst Stock: MSFT, 
+    Highest Sharpe Ratio: 3.93, 
+    Most Correlated Pair: GOOGL & AMZN, 
     Least Correlated Pair: AMZN & XOM
 
 Visualizations Generated
