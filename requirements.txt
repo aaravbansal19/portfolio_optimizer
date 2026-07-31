@@ -2,3 +2,8 @@ yfinance
 pandas
 numpy
 matplotlib
+numpy
+pandas
+matplotlib
+yfinance
+scipy
